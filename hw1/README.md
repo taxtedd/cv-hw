@@ -9,14 +9,6 @@
 ## Структура репозитория
 ```
 hw1/
-├── hw1.ipynb # ноутбук с кодом
-├── runs/          
-│   ├── cnn/
-│   │   ├── logs/ # логи TensorBoard
-│   │   └── profiler/ # trace профайлера
-│   └── vit/
-│       ├── logs/ # логи TensorBoard
-│       └── profiler/ # trace профайлера
 ├── results/
 │   ├── cnn/
 │   │   ├── cm_norm.png # CNN confusion matrix нормированная
@@ -26,8 +18,16 @@ hw1/
 │   |   └── cm.png # ViT confusion matrix
 │   ├── model_metrics_comparison.csv # сравнение метрик моделей
 │   └── model_profile_comparison.csv # сравнение ресурсов моделей
-├── requirements.txt
-└── README.md
+├── runs/          
+│   ├── cnn/
+│   │   ├── logs/ # логи TensorBoard
+│   │   └── profiler/ # trace профайлера
+│   └── vit/
+│       ├── logs/ # логи TensorBoard
+│       └── profiler/ # trace профайлера
+├── hw1.ipynb # ноутбук с кодом
+├── README.md
+└── requirements.txt
 ```
 
 ## Установка и запуск
